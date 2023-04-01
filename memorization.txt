@@ -1,0 +1,13 @@
+constructor name = def __init__(self, in_country_speed: int, between_primary_speed: int) -> None:
+method name convention = def compute_travel_time(self, departure: City, arrival: City) -> float: 
+calling the other class method = City.distance(departure, arrival)
+class name = self.__class__.__name__
+most simple toString return = return f"{self.__class__.__name__} ({self.in_country} km/h | {self.between_primary} km/h)"
+module for the abstract class = from abc import ABC, abstractmethod
+abstract class declaration = class Vehicle(ABC):
+abstract method declaration  = @abstractmethod n whole method declaration
+the difference between calling the method on own class or other class
+string print format = print(f" some string {variable} {some method} some string ")
+if the main class is running the code = if __name__ == "__main__":
+class method that argument contain the array of other class instances = def find_fastest_vehicle(self, vehicles: list[Vehicle]):
+assert user_input in [1, 2], 'Please enter an integer to select your option'
